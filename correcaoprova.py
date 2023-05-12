@@ -75,7 +75,10 @@ continua = input()
 msgfinal = f"Dados dA COMPRA: \n"
 
 print(msgfinal)
+
 print(f"totla da compra: R$ {total:.2f}")
+
+frete = total / 2
 
 if total < 200 :
     print("valor do frete")
